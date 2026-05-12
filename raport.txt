@@ -1,0 +1,23 @@
+RAPORT Z OBLICZENIA WEKTORÓW GNSS
+====================================
+
+Wektor: P1 -> P2
+dx =    12.345 m
+dy =    67.890 m
+dz =     3.456 m
+Długość 2D =  69.003 m
+Długość 3D =  69.090 m
+Azymut = 88.5489 g
+Przewyższenie =   3.456 m
+-----------------------------------
+
+Wektor: P2 -> P3
+dx =   -14.222 m
+dy =   -82.458 m
+dz =    -4.345 m
+Długość 2D =  83.675 m
+Długość 3D =  83.788 m
+Azymut = 289.1268 g
+Przewyższenie =  -4.345 m
+-----------------------------------
+
