@@ -1,6 +1,8 @@
 RAPORT Z OBLICZENIA WEKTORÓW GNSS
 ====================================
 
+Data: 2026-05-13
+
 Wektor: P1 -> P2
 dx =    12.345 m
 dy =    67.890 m

@@ -1,5 +1,6 @@
 # dzien4_raport.py - geodezyjny raport z wektorów
 import math
+from datetime import datetime
 
 def azymut(dx, dy):
     """Liczymy azymut z przyrostów. Zwraca w gradach."""
@@ -26,7 +27,7 @@ with open("punkty.txt", "r") as f:
 with open("raport.txt", "w") as raport:
     raport.write("RAPORT Z OBLICZENIA WEKTORÓW GNSS\n")
     raport.write("====================================\n\n")
-
+    raport.write(f"Data: {datetime.now():%Y-%m-%d}\n\n")
     # Liczymy wektory
     for i in range(len(punkty)-1):
         p1 = punkty[i]
